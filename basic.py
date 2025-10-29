@@ -4,7 +4,7 @@ from scipy.spatial import ConvexHull
 
 # Determine the gcd of components for a given vertex
 def divisor(v):
-    return gcd(v[0], v[1], v[2])
+    return gcd(int(v[0]), int(v[1]), int(v[2]))
 
 # Control the error
 def sign(x):
@@ -71,9 +71,9 @@ if __name__ == '__main__':
     print('----------test basic.py----------')
     #test codes
     v1 = np.array([-6, -6, -6], dtype = object)
-    v2 = np.array([3606,-6,-6], dtype = object)
-    v3 = np.array([-6,37,-6], dtype = object)
-    v4 = np.array([-6,-6,1], dtype = object)
+    v2 = np.array([3606, -6, -6], dtype = object)
+    v3 = np.array([-6, 37, -6], dtype = object)
+    v4 = np.array([-6, -6, 1], dtype = object)
     vlist = [v1, v2, v3, v4]
     o = np.array([-6, 35, -5])
     hull = ConvexHull(vlist)
