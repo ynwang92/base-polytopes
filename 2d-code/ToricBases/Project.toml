@@ -1,0 +1,18 @@
+name = "ToricBases"
+uuid = "5ada7d39-3f37-486a-be2d-154e5afadc91"
+authors = ["Washington Taylor <wati@mit.edu>"]
+version = "0.1.0"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+# Polymake = "d720cf60-89b5-51f5-aff5-213f193123e7"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+ArgParse = "1.2.0"
+# Polymake = "0.11.24"
+Revise = "3.7.1"
+StaticArrays = "1.9.10"
+Test = "1.10"
