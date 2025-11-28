@@ -83,7 +83,15 @@ The data for gauge groups and weight factors for good 3d polytopes. Different ty
 --------------------------------------------------------------------
 --------------------------------------------------------------------
 
-Code for exact computation of 2D polytopes in 2d-code subdirectory, further documentation also in readme.txt file there, reproduced here
+Code for exact computation of 2D polytopes in 2d-code subdirectory, further documentation also in readme.txt file there (including some info about how to run julia code easily), reproduced here
+
+
+The julia code generates the 2d bases in 2 independent ways, one
+"top-down" from the largest polytopes and the other "bottom up" from
+the smallest polytopes.
+
+
+-------------------------------------------------------------------
 
 
 generate.jl: produces all 2D bases starting with the minimal bases P2,

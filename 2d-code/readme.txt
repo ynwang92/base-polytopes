@@ -2,7 +2,7 @@ This directory contains a julia package to compute all 2D bases
 systematically, generalized to arbitrary k,for the paper "Statistics
 of Base Polytopes in F-theory" by Taylor, Wang, and Yu.
 
-The julia code generates these bases into independent ways, one
+The julia code generates these bases in two independent ways, one
 "top-down" from the largest polytopes and the other "bottom up" from
 the smallest polytopes.
 
