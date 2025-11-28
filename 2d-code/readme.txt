@@ -6,7 +6,7 @@ The julia code generates these bases into independent ways, one
 "top-down" from the largest polytopes and the other "bottom up" from
 the smallest polytopes.
 
-Code by WT, with some help from julia.
+Code by WT, with some help from Claude.
 ----------------------------------------------------
 
 If you are familiar with julia packages you can install this package
